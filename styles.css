@@ -15,7 +15,9 @@ img {
     font-size: 18px;
 }
 
-.container {
+.container,
+.quote-text,
+.quote-author {
     padding: 8px 240px;
 }
 
@@ -60,4 +62,24 @@ ul {
 .hero-info {
     min-width: 300px;
     flex-shrink: 0;
+}
+
+.quote {
+    display: flex;
+    justify-content: stretch;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    padding: 100px;
+}
+
+.quote-author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 24px;
 }
